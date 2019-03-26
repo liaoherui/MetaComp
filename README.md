@@ -38,7 +38,7 @@ This option refers to the input list.The list **(tab seperated)** is composed of
 **Example List:(One sample ,two sequencing platforms)** <BR/>
  ```
  zxy Athena_10X  /mnt/10X_athena.fasta /mnt/osf1/zxy_10X_R1.fq.gz  /mnt/osf1/zxy_10X_R2.fq.gz 
- zxy Illumina /mnt/pacbio_flye.fasta  /mnt/osf1/zxy_1.fq.gz /mnt/osf1/zxy_2.fq.gz
+ zxy Illumina /mnt/Illumina.fasta  /mnt/osf1/zxy_1.fq.gz /mnt/osf1/zxy_2.fq.gz
  ```
   **-s** : <BR/>
  This option refers to the sample name list.For example,if your input data only refers to one sample(suppose the sample name is 'zxy'), then your sample list should be:<BR/>
