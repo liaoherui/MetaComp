@@ -1,0 +1,4 @@
+zxy	Athena_10X	/mnt/osf1/user/zhanglu/zhanglu/hybrid/zxy/evaluation/10X_athena.fasta	/mnt/osf1/user/zhanglu/zhanglu/disk11/F16RD07016_ECOclg_10X/zxy/rawdata/zxy_10X_R1.fq.gz	/mnt/osf1/user/zhanglu/zhanglu/disk11/F16RD07016_ECOclg_10X/zxy/rawdata/zxy_10X_R2.fq.gz
+zxy	Pacbio_flye	/mnt/osf1/user/zhanglu/zhanglu/hybrid/zxy/evaluation/pacbio_flyer.fasta	/mnt/osf1/user/zhanglu/zhanglu/disk11/F16RD07016_ECOclg_hiseqx10/zxy_1.fq.gz	/mnt/osf1/user/zhanglu/zhanglu/disk11/F16RD07016_ECOclg_hiseqx10/zxy_2.fq.gz
+zxy	BGIseq	/mnt/osf1/user/zhanglu/zhanglu/hybrid/zxy/evaluation/BGIseq.fasta	/mnt/osf1/user/zhanglu/zhanglu/hybrid/hlj/hlj_X10/rawdata/hlj_1.fq.gz	/mnt/osf1/user/zhanglu/zhanglu/hybrid/hlj/hlj_X10/rawdata/hlj_2.fq.gz
+zxy	Illumina	/mnt/osf1/user/zhanglu/zhanglu/hybrid/zxy/evaluation/Illumina.fasta	/mnt/osf1/user/zhanglu/zhanglu/disk11/F16RD07016_ECOclg_hiseqx10/zxy_1.fq.gz	/mnt/osf1/user/zhanglu/zhanglu/disk11/F16RD07016_ECOclg_hiseqx10/zxy_2.fq.gz
