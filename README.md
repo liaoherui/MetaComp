@@ -33,7 +33,7 @@ The program is broken down into several modules:<BR/><BR/>
 This option refers to the input list.The list **(tab seperated)** is composed of 4 parts.<BR/>
 **column 1: sample name**<BR/>
 **column 2: prefix (Usuallly refer to different sequencing platforms or assembly strtegies)**<BR/>
-**column 3: assembly result dir(.fasta file with multi contigs/scaffolds)**<BR/>
+**column 3: assembly result(.fasta file with multi contigs/scaffolds) dir**<BR/>
 **column 4 and column 5: PE raw reads dir**<BR/>
 **Example List:(One sample ,two sequencing platforms)** <BR/>
  ```
