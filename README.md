@@ -13,7 +13,7 @@ MAEP is a new version of LAEP and can be used to evaluate the assembly quality o
 data(especially from the different sequencing platforms and different assembly strategies).By the
 way ,this pipeline can support multiple samples parallel evaluation.<BR/><BR/>
 
-The program is broken down into several module:<BR/><BR/>
+The program is broken down into several modules:<BR/><BR/>
 
 * Module 1: Assess contig/scaffold quality with **Quast v5.0.0**
 * Module 2: Binning contig/scaffold with **MaxBin 2.2.4**
