@@ -6,7 +6,6 @@ MAEP(Metagenomics Assembly Evaluation Pipeline)
 ### Version: V3.0
 
 --------------
-**This is not a production-ready software repository and is still under active development. Bugs and feature requests will not addressed. Note:MAEP can only be used on KMBGI's server.It will be updated to run on other servers soon after**
 
 ### Abstract
 MAEP is a new version of LAEP and can be used to evaluate the assembly quality of metagenomics 
