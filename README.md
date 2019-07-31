@@ -9,6 +9,7 @@ MetaComp(Metagenomics Assembly Compare Pipeline)
 
 ### Abstract
 MetaComp  is designed to evaluate the assembly quality of metagenomics data(especially from the different sequencing platforms and/or different assembly strategies).MetaComp combines many bioinformatics tools to find out the differences of input datasets.It's easy to install and use and flexible about output.
+
 (By the way ,this pipeline can support multiple samples' parallel evaluation.<BR/><BR/>)
 
 The program is broken down into several modules:<BR/><BR/>
