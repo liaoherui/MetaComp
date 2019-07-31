@@ -22,7 +22,7 @@ The program is broken down into several modules:<BR/><BR/>
 * Module 5: Plot with the **bin table**.
 ### Install(Only for linux)
 * Quick Start:<BR/>
-  Run the below command:
+  Run the command:
   `git clone https://github.com/liaoherui/MetaComp.git`<BR/>
   Then use this tool as "Manuals" section guided.(Make sure all depedencies are installed before use this tool.)
 
