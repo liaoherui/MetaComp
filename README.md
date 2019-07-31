@@ -49,10 +49,10 @@ This option refers to the input list.The list **(tab seperated)** is composed of
  zxy
  hlj
  ```
-,more samples' condition is similar.<BR/><BR/>
+,multiple samples' condition is similar.<BR/><BR/>
 
   **-o** : <BR/>
-  This option means output dir.
+  This option refers to output dir.
  
  
 
