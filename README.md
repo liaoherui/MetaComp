@@ -52,7 +52,7 @@ This option refers to the input list.The list **(tab seperated)** is composed of
  zxy
  hlj
  ```
-,multiple samples' condition is similar.<BR/><BR/>
+Then,multiple samples' condition is similar.<BR/><BR/>
 
   **-o** : <BR/>
   This option refers to output dir.
