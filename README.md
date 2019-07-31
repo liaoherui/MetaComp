@@ -1,14 +1,14 @@
-MAEP(Metagenomics Assembly Evaluation Pipeline)
+MetaComp(Metagenomics Assembly Compare Pipeline)
 ==============
 
 
 ### E-mail: liaoherui@mail.dlut.edu.cn
-### Version: V3.0
+### Version: V1.0
 
 --------------
 
 ### Abstract
-MAEP is a new version of LAEP and can be used to evaluate the assembly quality of metagenomics 
+MetaComp is a new version of LAEP and can be used to evaluate the assembly quality of metagenomics 
 data(especially from the different sequencing platforms and different assembly strategies).By the
 way ,this pipeline can support multiple samples' parallel evaluation.<BR/><BR/>
 
