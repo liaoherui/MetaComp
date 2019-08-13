@@ -1,6 +1,6 @@
 MetaComp(Metagenomics Assembly Compare Pipeline)
 ==============
-
+<b> This is not a production-ready software repository and is still under active development. Bugs and feature requests will not addressed. Please use with caution.</b>
 
 ### E-mail: liaoherui@mail.dlut.edu.cn
 ### Version: V1.0
@@ -39,8 +39,8 @@ This option refers to the input list.The list **(tab seperated)** is composed of
 **column 4 and column 5: PE raw reads dir**<BR/>
 **Example List:(One sample ,two sequencing platforms)** <BR/>
  ```
- zxy Athena_10X  /mnt/10X_athena.fasta /mnt/osf1/zxy_10X_R1.fq.gz  /mnt/osf1/zxy_10X_R2.fq.gz 
- zxy Illumina /mnt/Illumina.fasta  /mnt/osf1/zxy_1.fq.gz /mnt/osf1/zxy_2.fq.gz
+ sample_ID Athena_10X  /mnt/10X_athena.fasta /mnt/osf1/_10X_R1.fq.gz  /mnt/osf1/zxy_10X_R2.fq.gz 
+ sample_ID Illumina /mnt/Illumina.fasta  /mnt/osf1/zxy_1.fq.gz /mnt/osf1/zxy_2.fq.gz
  ```
   **-s** : <BR/>
  This option refers to the sample name list.For example,if your input data only refers to one sample(suppose the sample name is 'zxy'), then your sample list should be:<BR/>
