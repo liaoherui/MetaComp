@@ -16,6 +16,9 @@ MetaComp uses a combination of different features and algorithms to compare the 
 ### Install(Only for linux)
 
 Install 3rd party programs:
+
+* [MaxBin 2.2.4](https://downloads.jbei.org/data/microbial_communities/MaxBin/MaxBin.html)
+* [BWA 0.7.17](http://bio-bwa.sourceforge.net/)
 * [Quast v5.0.0](https://sourceforge.net/projects/quast/files/)
 * [Checkm v1.0.12](https://github.com/Ecogenomics/CheckM/wiki/Installation)
 * [Kraken 0.10.6](http://ccb.jhu.edu/software/kraken/)
