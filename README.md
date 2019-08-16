@@ -8,7 +8,7 @@ MetaComp(Metagenomics Assembly Compare Pipeline)
 --------------
 
 ### Abstract
-MetaComp uses a combination of different features and algorithms to compare the qualities of different metagenomic data. <BR/>
+MetaComp uses a combination of different features and algorithms to compare the qualities of different metagenomic datasets. The datasets are defined as the de novo assembly results(contigs/scaffolds) from diffenrent types of raw reads which are processed variously.<BR/>
 
 
 
