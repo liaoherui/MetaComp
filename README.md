@@ -11,8 +11,9 @@ MetaComp(Metagenomics Assembly Compare Pipeline)
 MetaComp  is designed to evaluate the quality of metagenomics assembling datasets which are from the different sequencing platforms and/or  are processed by different assembly strategies.More specifically,MetaComp combines many bioinformatics tools to find out the differences(in terms of N50,completeness,contamination,taxonomy,etc) of input datasets.It's easy to install and use and flexible for output.<BR/>
 (By the way ,this pipeline can support multiple samples' parallel evaluation.)
 
-The program is broken down into several modules:<BR/><BR/>
 
+Install 3rd party programs:
+* [Quast v5.0.0](https://sourceforge.net/projects/quast/files/)
 * Module 1: Assess contig/scaffold quality with **Quast v5.0.0**
 * Module 2: Binning contig/scaffold with **MaxBin 2.2.4**
 * Module 3: Map raw reads to contig/assembly and calculate the map rate with **BWA 0.7.17**
