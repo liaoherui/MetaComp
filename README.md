@@ -12,6 +12,9 @@ MetaComp uses a combination of different features and algorithms to compare the 
 
 
 
+
+### Install(Only for linux)
+
 Install 3rd party programs:
 * [Quast v5.0.0](https://sourceforge.net/projects/quast/files/)
 * [Checkm v1.0.12](https://github.com/Ecogenomics/CheckM/wiki/Installation)
@@ -20,9 +23,6 @@ Install 3rd party programs:
 * [Barrnap 0.9](http://www.vicbioinformatics.com/software.barrnap.shtml)
 * Make sure these programs are located on your PATH
 * Tested versions indicated, but other versions might also work
-
-
-### Install(Only for linux)
 * Quick Start:<BR/>
   Run the command:
   `git clone https://github.com/liaoherui/MetaComp.git`<BR/>
