@@ -12,7 +12,6 @@ MetaComp uses a combination of different features and algorithms to compare the 
 
 
 
-
 ### Install(Only for linux)
 
 Install 3rd party programs:
@@ -29,7 +28,7 @@ Install 3rd party programs:
 * Quick Start:<BR/>
   Run the command:
   `git clone https://github.com/liaoherui/MetaComp.git`<BR/>
-  Then use this tool as "Manuals" section guided.(Make sure all depedencies are installed before use this tool.)
+ 
 
 ### Manuals
 * Quick Start:<BR/>
