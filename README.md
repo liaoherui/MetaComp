@@ -33,7 +33,7 @@ Install 3rd party programs:
 ### Manuals
 * Quick Start:<BR/>
   `python Lazy_MAEP.py -l list/contig_raw_reads.list -s list/sample.list -o zxy_p4_test `<BR/>
-  By the way,you can put this command into a bash script and use it.
+  
 * Option Illustration:<BR/>
 
 **-l** : <BR/>
