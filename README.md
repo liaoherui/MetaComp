@@ -13,6 +13,8 @@ MetaComp uses a combination of different features and algorithms to compare the 
 
 
 ### Install(Only for linux)
+Install required python libraries: 
+`pip install  pandas numpy rpy2 matplotlib seaborn pyecharts`
 
 Install 3rd party programs:
 
