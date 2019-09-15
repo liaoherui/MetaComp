@@ -29,19 +29,23 @@ clone software: `git clone https://github.com/liaoherui/MetaComp.git`<BR/>
 
 ### Usage
 
-**python Lazy_MAEP.py -l DIR -s DIR -o DIR ** <BR/>
+**python Lazy_MAEP.py -l DIR -s DIR -o DIR** <BR/>
   
 optional arguments:  
 
 **-l** : <BR/>
 This option refers to the directory of input list.The list **(tab seperated)** is composed of 4 parts.<BR/>
 **column 1: sample name**<BR/>
-**column 2: prefix (Usuallly refer to different sequencing platforms or assembly strtegies)**<BR/>
-**column 3: assembly result(.fasta file with multi contigs/scaffolds) dir**<BR/>
-**column 4 and column 5: PE raw reads dir**<BR/>
+**column 2: prefix (Usuallly refer to different sequencing platforms or assembly tools' name)**<BR/>
+**column 3: assembly result( the directory of  contig/scaffold .fa/.fasta file ->) dir**<BR/>
+For PE:
+**column 4 and column 5: the directory of PE fastq files**<BR/>
+For SE/Long Reads:
+**column 4 : the directory of SE fastq files**<BR/>
+
 **Example List:(One sample ,two sequencing platforms)** <BR/>
  ```
-
+ list/contig_raw_reads.list
  ```
   **-s** : <BR/>
  This option refers to the directory of sample name list.For example,if your input data only refers to one sample(suppose the sample name is 'sample_A'), then your sample list should look like:<BR/>
