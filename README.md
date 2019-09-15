@@ -27,7 +27,7 @@ Install required python libraries:  `pip install  pandas numpy rpy2 matplotlib s
 clone software: `git clone https://github.com/liaoherui/MetaComp.git`<BR/>
  
 
-### Manuals
+### Usage
 * Quick Start:<BR/>
   `python Lazy_MAEP.py -l list/contig_raw_reads.list -s list/sample.list -o zxy_p4_test `<BR/>
   
@@ -59,7 +59,7 @@ Then,multiple samples' condition is similar.<BR/><BR/>
   **-o** : <BR/>
   This option refers to output dir.
  
- 
+### Example
 
 
 ### Output
