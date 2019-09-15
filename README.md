@@ -40,8 +40,7 @@ This option refers to the directory of input list.The list **(tab seperated)** i
 **column 3: assembly result( the directory of  contig/scaffold .fa/.fasta file ->) dir**<BR/>
 For PE:<BR/>
 **column 4 and column 5: the directory of PE fastq files**<BR/>
-(Or,for SE/Long Reads:<BR/>
-**column 4 : the directory of SE fastq files**)<BR/>
+(Or,for SE/Long Reads: column 4 : the directory of SE fastq files)<BR/>
 
 **Example List:(One sample ,two sequencing platforms)** <BR/>
  ```
