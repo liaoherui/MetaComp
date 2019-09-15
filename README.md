@@ -28,12 +28,13 @@ clone software: `git clone https://github.com/liaoherui/MetaComp.git`<BR/>
  
 
 ### Usage
-  **python Lazy_MAEP.py -l DIR -s DIR -o DIR **<BR/>
+
+** python Lazy_MAEP.py -l DIR -s DIR -o DIR **<BR/>
   
 optional arguments:  
 
 **-l** : <BR/>
-This option refers to the input list.The list **(tab seperated)** is composed of 4 parts.<BR/>
+This option refers to the directory of input list.The list **(tab seperated)** is composed of 4 parts.<BR/>
 **column 1: sample name**<BR/>
 **column 2: prefix (Usuallly refer to different sequencing platforms or assembly strtegies)**<BR/>
 **column 3: assembly result(.fasta file with multi contigs/scaffolds) dir**<BR/>
@@ -44,16 +45,16 @@ This option refers to the input list.The list **(tab seperated)** is composed of
  sample_ID Illumina /mnt/Illumina.fasta  /mnt/osf1/zxy_1.fq.gz /mnt/osf1/zxy_2.fq.gz
  ```
   **-s** : <BR/>
- This option refers to the sample name list.For example,if your input data only refers to one sample(suppose the sample name is 'sample_A'), then your sample list should be:<BR/>
+ This option refers to the directory of sample name list.For example,if your input data only refers to one sample(suppose the sample name is 'sample_A'), then your sample list should look like:<BR/>
  ```
  sample_A
  ```
- Or, you have two samples(sample_A and sample_B),then,your list should be:<BR/>
+ Or, you have two samples(sample_A and sample_B),then,your list should look like:<BR/>
  ```
  sample_A
  sample_B
  ```
-Then,multiple samples' condition is similar:<BR/>
+Then, for multiple samples ,the form is similar like:<BR/>
  ```
  sample_A
  sample_B
@@ -62,7 +63,7 @@ Then,multiple samples' condition is similar:<BR/>
  ```
  <BR/>
   **-o** : <BR/>
-  This option refers to output dir.
+  This option refers to output directory.
  
 ### Example
 
