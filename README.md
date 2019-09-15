@@ -1,4 +1,4 @@
-MetaComp(Metagenomics Assembly Compare Pipeline)
+MetaComp --- A flexible pipeline for comparing the assembly&binning quality of different metagenomic data 
 ==============
 <b> This is not a production-ready software repository and is still under active development. Bugs and feature requests will not addressed. Please use with caution.</b>
 
