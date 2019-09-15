@@ -74,9 +74,10 @@ Evaluate 4 different metagenomic data from 4 sequencing platforms.(These data co
 
 ### Output
 There are two parts of output.One is report(.html),another is literature figure.<BR/>
-The results can be downloaded in  Report folder(.html) or Figure  folder(literature figure) 
-1.Bin Quality Bar
+The results can be downloaded in  Report folder(.html) or Figure  folder(literature figure) <BR/>
+* 1.Bin Quality Bar
 ![Bin Quality Bar](https://github.com/liaoherui/MetaComp/blob/master/Figure/1.1_bar.png)
-
+* 2.Bin Quality Stack Bar
+![Bin Quality Stack Bar](https://github.com/liaoherui/MetaComp/blob/master/Figure/1.2_stack_bar.png)
 
 
