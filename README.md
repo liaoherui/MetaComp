@@ -1,4 +1,4 @@
-MetaComp --- A flexible pipeline for comparing the assembly&binning quality of different metagenomic data 
+MetaComp --- A flexible pipeline for comparing bins'(from different metagenomic data ) quality.
 ==============
 <b> This is not a production-ready software repository and is still under active development. Bugs and feature requests will not addressed. Please use with caution.</b>
 
@@ -29,7 +29,7 @@ clone software: `git clone https://github.com/liaoherui/MetaComp.git`<BR/>
 
 ### Usage
 * Quick Start:<BR/>
-  `python Lazy_MAEP.py -l list/contig_raw_reads.list -s list/sample.list -o zxy_p4_test `<BR/>
+  `python Lazy_MAEP.py -l DIR -s DIR -o zxy_p4_test `<BR/>
   
 * Option Illustration:<BR/>
 
