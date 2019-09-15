@@ -10,26 +10,21 @@ MetaComp --- A flexible pipeline for comparing the assembly&binning quality of d
 ### Abstract
 MetaComp uses a combination of different features and algorithms to compare the qualities of different metagenomic datasets. The datasets are defined as the de novo assembly results(contigs/scaffolds) from diffenrent types of raw reads which are processed variously.<BR/>
 
-
+### Dependencies
+* Python >=2.6
+* MaxBin 2.2.4
+* BWA 0.7.17
+* Quast v5.0.0
+* Checkm v1.0.12
+* Kraken 0.10.6
+* Aragorn v1.2.38
+* Barrnap 0.9
+* Make sure these programs are located on your PATH
 
 ### Install(Only for linux)
-Install required python libraries: 
-`pip install  pandas numpy rpy2 matplotlib seaborn pyecharts==0.5.11`
+Install required python libraries:  `pip install  pandas numpy rpy2 matplotlib seaborn pyecharts==0.5.11`
 
-Install 3rd party programs:
-
-* [MaxBin 2.2.4](https://downloads.jbei.org/data/microbial_communities/MaxBin/MaxBin.html)
-* [BWA 0.7.17](http://bio-bwa.sourceforge.net/)
-* [Quast v5.0.0](https://sourceforge.net/projects/quast/files/)
-* [Checkm v1.0.12](https://github.com/Ecogenomics/CheckM/wiki/Installation)
-* [Kraken 0.10.6](http://ccb.jhu.edu/software/kraken/)
-* [Aragorn v1.2.38](https://anaconda.org/bioconda/aragorn)
-* [Barrnap 0.9](http://www.vicbioinformatics.com/software.barrnap.shtml)
-* Make sure these programs are located on your PATH
-* Tested versions indicated, but other versions might also work
-* Quick Start:<BR/>
-  Run the command:
-  `git clone https://github.com/liaoherui/MetaComp.git`<BR/>
+clone software: `git clone https://github.com/liaoherui/MetaComp.git`<BR/>
  
 
 ### Manuals
