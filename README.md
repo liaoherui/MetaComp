@@ -64,13 +64,13 @@ Then, for multiple samples ,the form is similar like:<BR/>
  ...
  sample_N
  ```
- <BR/>
  
   **-o** : <BR/>
   This option refers to output directory.
  
 ### Example
-Evaluate 4 different metagenomic data from 4 sequencing platforms.(These data come from the same sample named 'hlj'.)
+Evaluate 4 different metagenomic data from 4 sequencing platforms.(These data come from the same sample named 'hlj'.) <BR/>
+```sh lazy_test.sh```
 
 ### Output
 There are two parts of output.One is report(.html),another is literature figure.<BR/>
