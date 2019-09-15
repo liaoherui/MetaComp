@@ -29,7 +29,7 @@ clone software: `git clone https://github.com/liaoherui/MetaComp.git`<BR/>
 
 ### Usage
 
-** python Lazy_MAEP.py -l DIR -s DIR -o DIR **<BR/>
+**python Lazy_MAEP.py -l DIR -s DIR -o DIR ** <BR/>
   
 optional arguments:  
 
@@ -41,8 +41,7 @@ This option refers to the directory of input list.The list **(tab seperated)** i
 **column 4 and column 5: PE raw reads dir**<BR/>
 **Example List:(One sample ,two sequencing platforms)** <BR/>
  ```
- sample_ID Athena_10X  /mnt/10X_athena.fasta /mnt/osf1/_10X_R1.fq.gz  /mnt/osf1/zxy_10X_R2.fq.gz 
- sample_ID Illumina /mnt/Illumina.fasta  /mnt/osf1/zxy_1.fq.gz /mnt/osf1/zxy_2.fq.gz
+
  ```
   **-s** : <BR/>
  This option refers to the directory of sample name list.For example,if your input data only refers to one sample(suppose the sample name is 'sample_A'), then your sample list should look like:<BR/>
