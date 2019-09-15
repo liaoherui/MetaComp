@@ -74,10 +74,18 @@ Evaluate 4 different metagenomic data from 4 sequencing platforms.(These data co
 
 ### Output
 There are two parts of output.One is report(.html),another is literature figure.<BR/>
-The results can be downloaded in  Report folder(.html) or Figure  folder(literature figure) <BR/>
+(The results can be downloaded in  Report folder(.html) or Figure  folder(literature figure)) <BR/>)
 * 1.Bin Quality Bar
 ![Bin Quality Bar](https://github.com/liaoherui/MetaComp/blob/master/Figure/1.1_bar.png)
 * 2.Bin Quality Stack Bar
 ![Bin Quality Stack Bar](https://github.com/liaoherui/MetaComp/blob/master/Figure/1.2_stack_bar.png)
+* 3.Bin Completeness/Contamination Scatter
+![Bin CC Scatter](https://github.com/liaoherui/MetaComp/blob/master/Figure/3.scatter.png)
+* 4.Taxomony UpSet
+![Bin Taxomony UpSet](https://github.com/liaoherui/MetaComp/blob/master/Figure/4_upset_species.png)
+* 5.Bin N50 and Coverage Boxplot
+![Bin N50 and Coverage Boxplot](https://github.com/liaoherui/MetaComp/blob/master/Figure/5_boxplot_cov_n50_overall.png)
+* 6.Taxonomy Relative Abundance
+![Taxonomy Relative Abundance](https://github.com/liaoherui/MetaComp/blob/master/Figure/6_2_stack_bar_species.png)
 
 
