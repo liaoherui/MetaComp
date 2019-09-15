@@ -8,7 +8,7 @@ MetaComp --- A flexible pipeline for comparing bins'(from different metagenomic 
 --------------
 
 ### Abstract
-MetaComp evaluates bins(draft genome) from different metagenomic data.These metagenomic data could come from different sequencing platforms or handled by different analysis pipelines.Anyway,if you want to know which platform or assembly tool or even their combinations can bring you the best binning result,just input the fastq files(after quality control) and contig/scafflod(.fa/.fasta) files, MetaComp will help you binning and compare these data automatically. <BR/>
+MetaComp evaluates bins(draft genome) from different metagenomic data.These metagenomic data could come from different sequencing platforms or handled by different analysis pipelines.Anyway,if you want to know which platform or assembly tool or even their combinations can bring you the best binning result,just input the fastq files(after quality control) and contig/scaffold(.fa/.fasta) files, MetaComp will help you binning and compare these data automatically. <BR/>
 
 ### Dependencies
 * Python >=2.6
@@ -28,10 +28,9 @@ clone software: `git clone https://github.com/liaoherui/MetaComp.git`<BR/>
  
 
 ### Usage
-* Quick Start:<BR/>
-  `python Lazy_MAEP.py -l DIR -s DIR -o zxy_p4_test `<BR/>
+  **python Lazy_MAEP.py -l DIR -s DIR -o DIR **<BR/>
   
-* Option Illustration:<BR/>
+optional arguments:  
 
 **-l** : <BR/>
 This option refers to the input list.The list **(tab seperated)** is composed of 4 parts.<BR/>
@@ -45,17 +44,23 @@ This option refers to the input list.The list **(tab seperated)** is composed of
  sample_ID Illumina /mnt/Illumina.fasta  /mnt/osf1/zxy_1.fq.gz /mnt/osf1/zxy_2.fq.gz
  ```
   **-s** : <BR/>
- This option refers to the sample name list.For example,if your input data only refers to one sample(suppose the sample name is 'zxy'), then your sample list should be:<BR/>
+ This option refers to the sample name list.For example,if your input data only refers to one sample(suppose the sample name is 'sample_A'), then your sample list should be:<BR/>
  ```
- zxy
+ sample_A
  ```
- Or, you have two samples(zxy and hlj),then,your list should be:<BR/>
+ Or, you have two samples(sample_A and sample_B),then,your list should be:<BR/>
  ```
- zxy
- hlj
+ sample_A
+ sample_B
  ```
-Then,multiple samples' condition is similar.<BR/><BR/>
-
+Then,multiple samples' condition is similar:<BR/>
+ ```
+ sample_A
+ sample_B
+ ...
+ sample_N
+ ```
+ <BR/>
   **-o** : <BR/>
   This option refers to output dir.
  
