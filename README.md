@@ -38,10 +38,10 @@ This option refers to the directory of input list.The list **(tab seperated)** i
 **column 1: sample name**<BR/>
 **column 2: prefix (Usuallly refer to different sequencing platforms or assembly tools' name)**<BR/>
 **column 3: assembly result( the directory of  contig/scaffold .fa/.fasta file ->) dir**<BR/>
-For PE:
+For PE:<BR/>
 **column 4 and column 5: the directory of PE fastq files**<BR/>
-For SE/Long Reads:
-**column 4 : the directory of SE fastq files**<BR/>
+(Or,for SE/Long Reads:<BR/>
+**column 4 : the directory of SE fastq files**)<BR/>
 
 **Example List:(One sample ,two sequencing platforms)** <BR/>
  ```
@@ -69,7 +69,7 @@ Then, for multiple samples ,the form is similar like:<BR/>
   This option refers to output directory.
  
 ### Example
-
+Evaluate 4 different metagenomic data from 4 sequencing platforms.(These data come from the same sample named 'hlj'.)
 
 ### Output
 There are two parts of output.One is report(.html),another is literature figure.<BR/>
