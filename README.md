@@ -65,6 +65,7 @@ Then, for multiple samples ,the form is similar like:<BR/>
  sample_N
  ```
  <BR/>
+ 
   **-o** : <BR/>
   This option refers to output directory.
  
