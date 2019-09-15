@@ -8,7 +8,7 @@ MetaComp --- A flexible pipeline for comparing bins'(from different metagenomic 
 --------------
 
 ### Abstract
-MetaComp uses a combination of different features and algorithms to compare the qualities of different metagenomic datasets. The datasets are defined as the de novo assembly results(contigs/scaffolds) from diffenrent types of raw reads which are processed variously.<BR/>
+MetaComp evaluates bins(draft genome) from different metagenomic data.These metagenomic data could come from different sequencing platforms or handled by different analysis pipelines.Anyway,just input the fastq files and contig/scafflod(.fa/.fasta) files,MetaComp will help you binning and compare these data automatically. <BR/>
 
 ### Dependencies
 * Python >=2.6
