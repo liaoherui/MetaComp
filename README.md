@@ -42,8 +42,6 @@ We need a list file including five columns with **(tab as delimiter)**.<BR/>
  ```
  list/contig_raw_reads.list
  ```
-****<BR/>
-
 **-o** : <BR/>
 Output path.
  
