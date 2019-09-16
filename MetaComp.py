@@ -5,9 +5,9 @@ import os
 import getopt
 import sys
 ###### Get opt ########
-opts,args=getopt.getopt(sys.argv[1:],"l:s:o:")
+opts,args=getopt.getopt(sys.argv[1:],"l:o:")
 contig_raw_dir=''
-sample_dir=''
+#sample_dir=''
 output_dir=''
 
 for opt,arg in opts:
@@ -15,9 +15,8 @@ for opt,arg in opts:
 		contig_raw_dir=arg
 	elif opt=='-o':
 		output_dir=arg
-	elif opt=='-s':
-		sample_dir=arg
-if output_dir=='' or contig_raw_dir=='' or sample_dir=='':
+
+if output_dir=='' or contig_raw_dir=='' :
 	print 'Error:\n\tYou require to give the complete parameters!\n\tPlease check:\n\t\t -l [contig and raw reads list]\n\t\t -s [sample name list]\n\t\t -o [output dir] '
 	exit()
 ### Current working dir ###
@@ -30,15 +29,7 @@ main_bash_dir=re.split('/',output_dir)[-1]
 #### initialize data structure ####
 #1.sample name array
 sample_arr=[]
-fs=open(sample_dir,'r')
-while True:
-	line=fs.readline().strip()
-	if not line:break
-	if line not in sample_arr:
-		sample_arr.append(line)
-	else:
-		print 'Error:\n\tYou have used the same sample name twice,which is not allowd!\n\tSample name should be unique!\t\nPlease correct and run again!'
-		exit()
+
 #2.contig and reads dict
 main={}  #this is the main dict including pre / contig /raw reads information
 fl=open(contig_raw_dir,'r')
@@ -46,6 +37,8 @@ while True:
 	line=fl.readline().strip()
 	if not line:break
 	ele=line.split('\t')
+	if ele[0] not in sample_arr:
+		sample_arr.append(ele[0])
 	if ele[0] not in main:
 		main[ele[0]]={}
 		main[ele[0]][ele[1]]={}
