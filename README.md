@@ -36,9 +36,9 @@ We need a list file including five columns with **(tab as delimiter)**.<BR/>
 **column 1: Sample id**<BR/>
 **column 2: Assembly id**<BR/>
 **column 3: Assembly sequences (.fasta)**<BR/>
-**column 4: Forwared reads (.fastq for short-reads sequencing)/Long reads (.fastq)
-**column 5 (Option): Reverse reads (.fastq for short-reads sequencing)
-**This example provides four assemblies for the sample of "hlj" ** <BR/>
+**column 4: Forwared reads (.fastq for short-reads sequencing)/Long reads (.fastq)**<BR/>
+**column 5 (Option): Reverse reads (.fastq for short-reads sequencing)**<BR/>
+**This example provides four assemblies for the sample of "hlj"** <BR/>
  ```
  list/contig_raw_reads.list
  ```
