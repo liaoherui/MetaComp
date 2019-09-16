@@ -27,7 +27,7 @@ Install required python libraries:  `pip install  pandas numpy rpy2 matplotlib s
 
 ### Usage
 
-**python Lazy_MAEP.py -l data.list -s samplename -o out_path** <BR/>
+**python Lazy_MAEP.py -l data.list  -o out_path** <BR/>
   
 optional arguments:  
 
@@ -43,9 +43,6 @@ We need a list file including five columns with **(tab as delimiter)**.<BR/>
  list/contig_raw_reads.list
  ```
 ****<BR/>
-**-s** : <BR/>
-
-A file contains sample names, each line per sample.
 
 **-o** : <BR/>
 Output path.
