@@ -29,7 +29,7 @@ clone software: `git clone https://github.com/liaoherui/MetaComp.git`<BR/>
 
 ### Usage
 
-**python Lazy_MAEP.py -l DIR -s DIR -o DIR** <BR/>
+**python MetaComp.py -l DIR -s DIR -o DIR** <BR/>
   
 optional arguments:  
 
