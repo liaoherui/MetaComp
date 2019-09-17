@@ -46,7 +46,7 @@ We need a list file including five columns with **(tab as delimiter)**.<BR/>
 Output path.
  
 ### Output
-MetaComp genetats both html report and standalone png figures <BR/>
+MetaComp generates both html report and standalone png figures <BR/>
 * 1.Bin Quality Bar
 ![Bin Quality Bar](https://github.com/liaoherui/MetaComp/blob/master/Figure/1.1_bar.png)
 * 2.Bin Quality Stack Bar
