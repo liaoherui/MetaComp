@@ -60,4 +60,9 @@ MetaComp generates both html report and standalone png figures <BR/>
 * 6.Taxonomy Relative Abundance
 ![Taxonomy Relative Abundance](https://github.com/liaoherui/MetaComp/blob/master/Figure/6_2_stack_bar_species.png)
 
+## References:
 
+how to cite this tool:
+```
+Zhang, L., Fang, X., Liao, H. et al. A comprehensive investigation of metagenome assembly by linked-read sequencing. Microbiome 8, 156 (2020). https://doi.org/10.1186/s40168-020-00929-3
+```
